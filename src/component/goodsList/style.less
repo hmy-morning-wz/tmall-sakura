@@ -1,0 +1,303 @@
+@fw: 750/100;
+
+.containDiv {
+  z-index: 999;
+  position: relative;
+  top: -221vw/@fw;
+  margin-bottom: -221vw/@fw;
+  user-select: none;
+}
+img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.zhuanquTit {
+  font-size:32vw/@fw;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(124,93,60,1);
+  line-height:32vw/@fw;
+}
+
+// 海景房
+.haijingfang {
+  width: 670vw/@fw;
+  background:rgba(254,255,254,1);
+  border-radius:12vw/@fw;
+  padding: 32vw/@fw 0 32vw/@fw 32vw/@fw;
+  margin: 0 auto;
+  margin-bottom: 24vw/@fw;
+}
+.haijingfangList {
+  margin-top: 14vw/@fw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;    
+  overflow: hidden;
+  .eachOne {
+    width:196vw/@fw;
+    height:216vw/@fw;
+    border-radius:16vw/@fw;
+    border:3vw/@fw solid rgba(246,246,246,1);
+    margin-right: 18vw/@fw;
+    margin-top: 10vw/@fw;
+    img {
+      width:196vw/@fw;
+      height:216vw/@fw;
+      border-radius:16vw/@fw;
+    }
+  }  
+  :nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+// 直播区
+// 闪烁动态
+@keyframes opacity-change {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-webkit-keyframes opacity-change {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-moz-keyframes opacity-change {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@-o-keyframes opacity-change {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+.zhibo {
+  width: 702vw/@fw;
+  margin: 0 auto;
+  margin-bottom: 24vw/@fw;
+  padding-bottom: 32vw/@fw;
+  background:rgba(254,255,254,1);
+  border-radius:12vw/@fw;  
+  .titHeader {
+    display: block;
+    width: 702vw/@fw;
+    height: 48vw/@fw;
+  }
+  .zhiboList {
+    padding-left: 32vw/@fw;
+  }
+  .eachOne {
+    width:634vw/@fw;
+    height:316vw/@fw;
+    border-radius:12vw/@fw;
+    border:2vw/@fw solid rgba(229,229,229,1);
+    margin-top: 24vw/@fw;
+    display: flex;
+    overflow: hidden;
+    .left {
+      z-index: 20;
+      position: relative;
+      img {
+        display: block;
+        width: 270vw/@fw;
+        height: 320vw/@fw;
+        border-radius: 12vw/@fw 0 0 12vw/@fw;
+      }
+      .zhiboIng {
+        position: absolute;
+        top: 16vw/@fw;
+        left: 16vw/@fw;
+        padding: 2vw/@fw 8vw/@fw 2vw/@fw 0;
+        background:rgba(255,84,62,1);
+        border-radius:4vw/@fw;       
+        display: flex;
+        align-items: center; 
+        font-size:20vw/@fw;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:28vw/@fw;
+        .dot {
+          width: 24vw/@fw;
+          height: 20vw/@fw;
+          background: url('https://images.allcitygo.com/20200330170408504d0EjGz.png?x-oss-process=image/format,webp') no-repeat;
+          background-size: 100% 100%;
+          animation: opacity-change 1.75s ease-in-out infinite;
+          -webkit-animation: opacity-change 1.75s ease-in-out infinite;
+          -moz-animation: opacity-change 1.75s ease-in-out infinite;
+          -o-animation: opacity-change 1.75s ease-in-out infinite;
+        }
+      }
+    }
+    .right {
+      padding-left: 32vw/@fw;
+      padding-top: 24vw/@fw;
+      .adTxtt {
+        width:290vw/@fw;
+        font-size:28vw/@fw;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(124,93,60,1);
+        line-height:28vw/@fw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 8vw/@fw;
+      }
+      .zhiboTime {
+        margin-bottom: 20vw/@fw;
+        font-size:20vw/@fw;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+        line-height:20vw/@fw;
+      }
+      .goodsArea {
+        display: flex;
+        margin-bottom: 20vw/@fw;
+        .firstGoods {
+          position: relative;
+          width:120vw/@fw;
+          height:120vw/@fw;
+          border-radius:8vw/@fw;
+          img {
+            display: block;
+            width:120vw/@fw;
+            height:120vw/@fw;
+            border-radius:8vw/@fw;
+          }
+          .price {
+            position: absolute;
+            bottom: 0vw/@fw;
+            left: 0vw/@fw;
+            width: 108vw/@fw;
+            height: 40vw/@fw;;
+            border-radius: 0 0 8vw/@fw 8vw/@fw;
+            background:linear-gradient(180deg,rgba(38,40,62,0) 0%,rgba(28,32,41,0.4) 100%);
+            display: flex;
+            align-items: center;
+            padding-left: 12vw/@fw;
+            font-size:22vw/@fw;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+          }
+        }
+        .secondGoods {
+          position: relative;
+          width:120vw/@fw;
+          height:120vw/@fw;
+          border-radius:8vw/@fw;
+          margin-left: 24vw/@fw;
+          img {            
+            display: block;
+            width:120vw/@fw;
+            height:120vw/@fw;
+            border-radius:8vw/@fw;
+          }
+          .mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width:44vw/@fw;
+            height:120vw/@fw;
+            border-radius:8vw/@fw;
+            padding: 0 38vw/@fw;
+            background:rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:22vw/@fw;
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+            text-align: center;
+          }
+        }
+      }
+      .logoArea {
+        display: flex;
+        align-items: center;
+        img {
+          display: block;
+          width:58vw/@fw;
+          height:58vw/@fw;
+          border-radius: 100%;
+          margin-right: 8vw/@fw;
+        }
+        .shopName {
+          width:190vw/@fw;
+          font-size:24vw/@fw;
+          font-family:PingFangSC-Regular,PingFang SC;
+          font-weight:400;
+          color:rgba(151,160,175,1);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+  .seeMore {
+    width:148vw/@fw;
+    height:36vw/@fw;
+    margin: 0 auto;
+    margin-top: 24vw/@fw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(244,235,225,1);
+    border-radius:18vw/@fw;
+    font-size:20vw/@fw;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(124,93,60,1);
+    line-height:28vw/@fw;
+    img {
+      display: inline-block;
+      width: 18vw/@fw;
+      height: 16vw/@fw;
+      margin-left: 3vw/@fw;
+    }
+  }
+}
+
+
+.footMarker {
+  margin-top: 64vw/@fw;
+  // padding-bottom: 74vw/@fw;
+  font-size:32vw/@fw;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(255,255,255,0.6);
+  line-height:48vw/@fw;
+  text-align: center;
+}

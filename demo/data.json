@@ -1,0 +1,478 @@
+{
+  "config": {
+    "doAllTask":"OFF",
+    "tracker":"OFF",
+    "debugTostList":"louis林新华",
+    "showHaijingfang": "true",
+    "showZhibo": "true",
+    "haijingfangName": "海景房 区域",
+    "zhiboName": "直播 区域",
+    "showBag":true,
+    "bgColor": "",
+    "activityDate": "4月10日-4月30日",
+    "activityTheme": "",
+    "showShopArea":"true",
+    "shopAreaTitle": "标题标题 最好八字",
+    "shopAreaList": [
+      {
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1",
+        "brandName":"九阳"
+        
+      },
+      {
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1",
+        "brandName":"九阳电压力锅"
+        
+      }
+    ],
+
+    "shopAreaItemList":[
+      {
+        "brandName":"九阳",
+        "goodsName": "九阳",
+        "goodAdDesc":"运营营销文字九个字",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳",
+        "goodsName": "九阳",
+        "goodAdDesc":"运营营销文字九个字",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳",
+        "goodsName": "九阳",
+        "goodAdDesc":"运营营销文字八字",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳",
+        "goodsName": "九阳",
+        "goodAdDesc":"运营营销文字七",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳电压力锅",
+        "goodsName": "九阳电压力锅",
+        "goodAdDesc":"运营ggg文字七",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳电压力锅",
+        "goodsName": "九阳电压力锅七八",
+        "goodAdDesc":"运营15g文字七",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳电压力锅",
+        "goodsName": "九阳电压力锅七八九",
+        "goodAdDesc":"运营营销文字七",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "brandName":"九阳电压力锅",
+        "goodsName": "九阳电压力锅",
+        "goodAdDesc":"运营abcjg文字七",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      }  
+      
+    ],
+    "haijingfangList": [
+      {
+        "goodsName": "九阳电压力锅",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "goodsName": "九阳电压力锅",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "goodsName": "九阳电压力锅",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      },
+      {
+        "goodsName": "九阳电压力锅",
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link_type": "ALLCITYGO1"
+      }
+    ],
+    "zhiboList": [
+      {
+        "shopName": "百草味旗舰店",
+        "adTxt": "网红年货爆买榜",
+        "beginStatus": "true",
+        "beginTime": "4.10 上午 9:00",
+        "goodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsPrice": "4.9",
+        "otherGoodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsNum": 50,
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "logo": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "69226163",
+        "link_type": "live"
+      },
+      {
+        "shopName": "百草味旗舰店",
+        "adTxt": "网红年货爆买榜",
+        "beginStatus": "true",
+        "beginTime": "4.10 上午 9:00",
+        "goodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsPrice": "4.9",
+        "otherGoodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsNum": 50,
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "logo": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "69226163",
+        "link_type": "live"
+      },
+      {
+        "shopName": "百草味旗舰店",
+        "adTxt": "网红年货爆买榜",
+        "beginStatus": "true",
+        "beginTime": "4.10 上午 9:00",
+        "goodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsPrice": "4.9",
+        "otherGoodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsNum": 50,
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "logo": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "69226163",
+        "link_type": "live"
+      },
+      {
+        "shopName": "百草味旗舰店",
+        "adTxt": "网红年货爆买榜",
+        "beginStatus": "true",
+        "beginTime": "4.10 上午 9:00",
+        "goodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsPrice": "4.9",
+        "otherGoodsImg": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "goodsNum": 50,
+        "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "logo": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+        "link": "69226163",
+        "link_type": "live"
+      }
+    ],
+    "draw_result": {
+      "image": null,
+      "buttonText1": "去使用",
+      "kefu": "支付宝客服电话：95188",
+      "buttonText2": "更多福利"
+    },
+    "submit_address":{
+      "link": "/oper-act-tmall/userAddress/sendTmallVoucher",
+     "link_type":"ALLCITYGO3"
+     },
+     "ruleUrl":{
+      "link": "https://www.taobao.com",
+     "link_type":"ALLCITYGO1"
+     },
+    "backClass": [{
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://img.alicdn.com/imgextra/i2/2202577470990/O1CN01AYMdq41JBSfXyXTxT_!!2202577470990-2-fans.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "95445",
+      "sellerId": "92686194",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "bgImage":"./assets/image/bindImg.jpg",
+      "followImage":"https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",      
+      "notice":"完成入会获得奖励",
+      "couponPrize": "乘车红包",
+      "task1Type": "follow",
+      "_TAG": null,
+      "name": "飞利浦",
+      "id": "92686194",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://img.alicdn.com/imgextra/i1/2202577470990/O1CN01ZoZlIG1JBShIjPmt4_!!2202577470990-0-fans.jpg",
+      "followImage":"https://img.alicdn.com/imgextra/i1/2202577470990/O1CN01ZoZlIG1JBShIjPmt4_!!2202577470990-0-fans.jpg",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "2424298091",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "关注测试",
+      "task1Type": "follow",
+      "notice":"完成入会获得奖励",
+      "_TAG": null,
+      "name": "follow(关注任务1)",
+      "id": "2424298091",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "217101303",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "宝洁官方旗舰店",
+      "task1Type": "follow",
+      "_TAG": null,
+      "name": "宝洁官方旗舰店(关注任务2)",
+      "notice":"完成入会获得奖励",
+      "id": "217101303",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "628189716",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "百草味旗舰店",
+      "task1Type": "follow",
+      "notice":"完成入会获得奖励",
+      "_TAG": null,
+      "name": "百草味旗舰店(关注任务3)",
+      "id": "628189716",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "1637212566",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "雀巢母婴官方旗舰店",
+      "task1Type": "follow",
+      "notice":"完成入会获得奖励",
+      "_TAG": null,
+      "name": "雀巢母婴官方旗舰店(关注任务4)",
+      "id": "1637212566",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "845001562",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "innisfree官方旗舰店",
+      "task1Type": "follow",
+      "notice":"完成入会获得奖励",
+      "_TAG": null,
+      "name": "innisfree官方旗舰店(关注任务5)",
+      "id": "845001562",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    },  {
+      "bannnerUrl": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "draw2Id": null,
+      "draw1Id": 130478,
+      "sellerId": "1603022933",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "贝因美",
+      "task1Type": "member",
+      "_TAG": null,
+      "notice":"完成入会获得奖励",
+      "name": "贝因美",
+      "id": "1603022933",
+      "task1Url": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "task2Url": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "619123122",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "followImage":"https://img.alicdn.com/imgextra/i1/2202577470990/O1CN01ZoZlIG1JBShIjPmt4_!!2202577470990-0-fans.jpg",
+      "couponPrize": "良品铺子",
+      "notice":"完成入会获得奖励",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "良品铺子",
+      "id": "619123122",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "notice":"完成入会获得奖励",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "880734502",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "三只松鼠",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "三只松鼠",
+      "id": "880734502",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    },{
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "2943025980",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "Guerlain娇兰官方旗舰店",
+      "task1Type": "member",
+      "notice":"完成入会获得奖励",
+      "_TAG": null,
+      "name": "Guerlain娇兰官方旗舰店",
+      "id": "2943025980",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "notice":"完成入会获得奖励",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "3945695159",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "imvely海外旗舰店",
+      "task1Type": "follow",
+      "_TAG": null,
+      "name": "imvely海外旗舰店(关注任务6)",
+      "id": "3945695159",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "notice":"完成入会获得奖励",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "3840400515",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "VELYVELY海外旗舰店",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "VELYVELY海外旗舰店",
+      "id": "3840400515",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "notice":"完成入会获得奖励",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "831007526",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "哈尔斯官方旗舰店",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "哈尔斯官方旗舰店",
+      "id": "831007526",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "731477332",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "万事利官方旗舰店",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "万事利官方旗舰店",
+      "id": "731477332",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "890482188",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "耐克",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "耐克",
+      "id": "890482188",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "2201304374934",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "东方喜炮",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "东方喜炮",
+      "id": "2201304374934",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }, {
+      "bannnerUrl": "https://www.taobao.com",
+      "image": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "shopUrl": "https://www.taobao.com",
+      "draw2Id": "2",
+      "draw1Id": "130478",
+      "sellerId": "2200657355562",
+      "icon_img": "https://gw.alicdn.com/tfs/TB1Az7iXG5s3KVjSZFNXXcD3FXa-350-150.png",
+      "couponPrize": "SPLAT居家日用旗舰店",
+      "task1Type": "member",
+      "_TAG": null,
+      "name": "SPLAT居家日用旗舰店",
+      "id": "2200657355562",
+      "task1Url": "https://www.taobao.com",
+      "task2Url": "https://www.taobao.com"
+    }],
+    "ruleText": "1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/n1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX1. 活动时间：2018年1月25日—2018年2月9日（在活动时间内，活动资源送完则活动自动结束）；\n2. 参与方式：在“浙江移动”微信公众号中回复“福袋”关键字；\n3. 活动规则：用户在活动期间参与活动，可通过本人参与、受邀、邀请好友三种方式参与活动，每个手机号累计最多获得11个福袋。\n（1）首次发起邀请成功，无论对方是否接受邀请，发起人均可获得1个福袋（2）每次被邀请人接受邀请，发起人和被邀请人双方各自可获得1个福袋\n（3）测试规则文字较长情况XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "my_draw":{
+      "link_type": "",
+      "link":"aHR0cHM6Ly9sZWFndWVvZmxlZ2VuZHMudG1hbGwuY29tL3Nob3Avdmlld19zaG9wLmh0bT9zcG09YTIxYm8uMjAxNy4yMDE4NjMtMS5kNy41YWY5MTFkOXBwOGtCYyZ1c2VyX251bWJlcl9pZD0yNjI5MDA3MjcwJnB2aWQ9NmNmOGM2MGUtNzcyMi00M2VhLTk1ODgtMTg1Y2JlMTgwYzc0JnBvcz03JmJyYW5kSWQ9OTg3MTgyNTE0JmFjbT0wMzAxNC4xMDAzLjEuNzY1ODI0JnNjbT0xMDA3LjEzMTQzLjU2NjM2LjEwMDIwMDMwMDAwMDAwMA=="
+    },
+    "debug":"ON"
+  }
+}

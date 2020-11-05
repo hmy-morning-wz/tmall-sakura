@@ -1,0 +1,383 @@
+@fw: 750/100;
+
+.luckDraw{
+	position: relative;
+	user-select: none;
+}
+img { pointer-events: none; }
+.shadow{
+	width: 500vw/@fw;
+	height: 300vw/@fw;
+	display: block;
+	// mix-blend-mode: overlay;
+	mix-blend-mode: screen;
+	position: absolute;
+	left:250vw/@fw;
+	pointer-events:none
+}
+.fadeout {
+    -webkit-transition: all 1.2s;
+    transition: all 1.2s;
+    opacity: 0.3;
+  }
+.fadein {
+    -webkit-transition: all 1.2s;
+    transition: all 1.2s;
+    opacity: 1;
+
+}
+.luckDraw-toast-text{
+	font-size: 12px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 0 8px;
+	min-width: 120px;
+	max-width: 180px;
+    min-height: 80px;
+    border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    color: #fff;
+    background-color: #333;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.luckDraw-toast-text2{
+	font-size: 12px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 0 8px;
+	min-width: 120px;
+	max-width: 200px;
+    min-height: 60px;
+    border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    color: #fff;
+    background-color: #333;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.luckDraw-bg{
+	width: 750vw/@fw;
+	height: 1200vw/@fw;
+	background-size: 100% 100% !important;
+	position: relative;
+}
+.upper{
+	width: 750vw/@fw;
+	height: 600vw/@fw;
+	position: absolute;
+	top:0;
+	left: 0;
+	pointer-events:none;
+}
+.down{
+	width: 750vw/@fw;
+	height: 600vw/@fw;
+	position: absolute;
+	top: 600vw/@fw;
+	left: 0;
+	pointer-events:none;
+}
+.luckDraw-hide{
+	display: none;
+}
+.luckDraw-title{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 91vw/@fw;
+	height: 30vw/@fw;
+	line-height: 30vw/@fw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.luckDraw-title img{
+	width: 40vw/@fw;
+	height: 40vw/@fw;
+	margin-left: 8vw/@fw;
+}
+.game-title{
+	padding-top: 248vw/@fw;
+	height:45vw/@fw;
+	font-size:32vw/@fw;
+	font-family:PingFangSC-Medium,PingFang SC;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:45vw/@fw;
+	letter-spacing:vw/@fw;
+	text-align: center;
+}
+.hide{
+	display: none;
+}
+.luckDraw-title .luck-number{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vw/@fw;
+	font-size:44vw/@fw;
+	font-family:PingFangSC-Regular,PingFangSC;
+	font-weight:400;
+	color:#FFE29E;
+	transform: scale(0.5);
+}
+.rule{
+	width: 23vw/@fw;
+	height: 106vw/@fw;
+	position: absolute;
+	left: 50vw/@fw;
+	top: 192vw/@fw;
+}
+.middle-content{
+	width: 561vw/@fw;
+	height: 262vw/@fw;
+	// background:linear-gradient(180deg,rgba(245,219,201,1) 0%,rgba(240,207,185,1) 100%);
+	background-size: 100% 100% !important;
+	border-radius:99vw/@fw;
+	overflow: hidden !important;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 30vw/@fw;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+.game-shadow{
+	position: absolute;
+	z-index: 1000;
+	top:0;
+}
+.slot-box-inner{
+	width:178vw/@fw;
+	height:220vw/@fw;
+	overflow: hidden;
+	position: relative;
+	box-shadow:0px 2vw/@fw 4vw/@fw 0px rgba(213,165,131,1);
+}
+.kuang{
+	width:178vw/@fw;
+	height:220vw/@fw;
+	background:rgba(254,253,244,1);
+	box-shadow:0px 2vw/@fw 4vw/@fw 0px rgba(213,165,131,1);
+	border-radius: 8vw/@fw;
+	text-align: center;
+	font-size:22vw/@fw;
+	font-family:PingFangSC-Semibold,PingFangSC;
+	font-weight:600;
+	color:rgba(245,38,73,1);
+}
+.kuang img{
+	width: 120vw/@fw;
+	height: 130vw/@fw;
+	margin-top: 30vw/@fw;
+}
+.ml13{
+	margin-left: 13vw/@fw;
+}
+.mr13{
+	margin-right: 13vw/@fw;
+}
+.bottom-content{
+	overflow: hidden;
+	height: 240vw/@fw;
+}
+.bottom{
+	display: flex;
+	// justify-content: center;
+	margin-top: 21vw/@fw;
+	position: relative;
+}
+.bottom .left{
+	width: 123vw/@fw;
+	height: 76vw/@fw;
+	margin-top: 38vw/@fw;
+	display: block;
+	margin-left: 105vw/@fw;
+}
+.bottom .right{
+	width: 123vw/@fw;
+	height: 76vw/@fw;
+	margin-top: 38vw/@fw;
+	display: block;
+
+}
+.bottom .middle{
+	width: 264vw/@fw;
+	height: 184vw/@fw;
+	margin-left: 5vw/@fw;
+	margin-right: 30vw/@fw;
+	position: relative;
+}
+.bottom .middle .mainButton{
+	width: 284vw/@fw;
+	height: 180vw/@fw;
+	position: absolute;
+	top:0
+}
+.hand{
+	width: 187vw/@fw;
+	height: 122vw/@fw;
+	z-index: 100;
+}
+.handeOffset{
+	bottom: 24vw/@fw;
+	left: 230vw/@fw;
+	position: absolute;
+}
+.circle{
+	width:40vw/@fw;
+	height: 40vw/@fw;
+	opacity:0.55;
+	border-radius: 40vw/@fw;
+	border:7vw/@fw solid rgba(255,255,255,1);
+	z-index: 50;
+}
+.circleOffset{
+	position: absolute;
+	bottom: 100vw/@fw;
+	left: 218vw/@fw;
+}
+.moreCircleOffset{
+	position: absolute;
+	bottom: 10vw/@fw;
+	left: 75vw/@fw;
+}
+.moreHandOffset{
+	bottom: -65vw/@fw;
+	left: 85vw/@fw;
+	position: absolute;
+}
+.count{
+	width:438vw/@fw;
+	height:60vw/@fw;
+	// line-height:30vw/@fw;
+	background:rgba(0,0,0,0.4);
+	border-radius:30vw/@fw;
+	margin: -10vw/@fw auto 0;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:40vw/@fw;
+	font-family:PingFangSC-Medium,PingFangSC;
+	font-weight:500;
+	color:rgba(254,222,155,1);
+	transform: scale(0.5);
+}
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0%{
+		transform: scale(1);  /*开始为原始大小*/
+		opacity: 0.55;
+	}
+	25%{
+		transform: scale(1.3); /*放大1.1倍*/
+		opacity: 0.4;
+	}
+	50%{
+		transform: scale(1);
+		opacity: 0.55;
+	}
+	75%{
+		transform: scale(1.3);
+		opacity: 0.4;
+	}
+}
+@-webkit-keyframes  scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0%{
+		transform: scale(1);  /*开始为原始大小*/
+		opacity: 0.55;
+	}
+	25%{
+		transform: scale(1.3); /*放大1.1倍*/
+		opacity: 0.4;
+	}
+	50%{
+		transform: scale(1);
+		opacity: 0.55;
+	}
+	75%{
+		transform: scale(1.3);
+		opacity: 0.4;
+	}
+}
+@keyframes scaleDraw2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0%{
+		transform: scale(1);  /*开始为原始大小*/
+	}
+	25%{
+		transform: scale(1.2); /*放大1.1倍*/
+	}
+	50%{
+		transform: scale(1);
+	}
+	75%{
+		transform: scale(1.2);
+	}
+}
+@-webkit-keyframes  scaleDraw2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+	0%{
+		transform: scale(1);  /*开始为原始大小*/
+	}
+	25%{
+		transform: scale(1.2); /*放大1.1倍*/
+	}
+	50%{
+		transform: scale(1);
+	}
+	75%{
+		transform: scale(1.2);
+	}
+}
+.dynamic{
+	-webkit-animation-name: scaleDraw; /*关键帧名称*/
+	-webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
+	-webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
+	-webkit-animation-duration: 3s; /*动画所花费的时间*/
+}
+.dynamic2{
+	-webkit-animation-name: scaleDraw2; /*关键帧名称*/
+	-webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
+	-webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
+	-webkit-animation-duration: 3s; /*动画所花费的时间*/
+}
+
+.p1_chip1
+{
+	animation: chip1 1s linear 1;
+	/* Safari 和 Chrome: */
+	-webkit-animation: chip1 1s linear 1;
+	bottom: -65vw/@fw;
+	left: 85vw/@fw;
+	position: absolute;
+}
+@keyframes chip1
+{
+	0% {transform:translate3d(-190vw/@fw,0%,0);}
+	100% {transform:translate3d(0,0%,0);}
+}
+
+@-webkit-keyframes chip1 /* Safari 和 Chrome */
+{
+	0% {-webkit-transform:translate3d(-190vw/@fw,0%,0);}
+	100% {-webkit-transform:translate3d(0vw/@fw,0%,0);}
+}

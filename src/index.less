@@ -1,0 +1,110 @@
+@fw: 750/100;
+.content {
+  color: #222;
+}
+
+.hide{
+  display: none;
+}
+
+.outermostLayer {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  position: relative;
+}
+.secondLayer {
+  min-height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  position: relative;
+  padding-bottom: 72vw/@fw;
+}
+
+.goBackTop {
+	width: 80vw/@fw;
+	height: 80vw/@fw;
+	position: fixed;
+	right: 16vw/@fw;
+  bottom: 164vw/@fw;
+  z-index: 999;
+	img {
+		display: block;
+		width: 80vw/@fw;
+		height: 80vw/@fw;
+	}
+}
+
+.am-toast-debug {
+  position: fixed;
+  z-index: 999;
+  top: 1%;
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: sans-serif
+}
+
+.am-toast {
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  width: 100%;
+  margin-top: -60px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: sans-serif
+}
+
+.am-toast-debug .am-toast-text {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 0 8px;
+  min-width: 120px;
+  min-height: 120px;    
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  color: #fff;
+  background-color: #333;
+  opacity: .9;
+  box-sizing: border-box;
+  word-break: break-all;
+  word-wrap: break-word;
+	overflow-y: auto;
+	white-space: pre-line;
+}
+
+
+.inline{
+  display: inline;	
+}
+
+.luck-draw-box {
+  position: relative;
+  top :0;
+}
+
+.luck-draw-box-hide {
+  height: 189px;
+}
+
+.left140 {
+  margin-left: 140vw/@fw
+}
+
+.preload-box {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}

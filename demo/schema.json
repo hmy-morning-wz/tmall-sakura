@@ -1,0 +1,486 @@
+{
+  "type": "object",
+  "title": "组件配置",
+  "properties": {
+    "config": {
+      "type": "object",
+      "title": "组件配置",
+      "properties": {
+        "debug": {
+          "type": "string",
+          "title": "测试模式(生产环境OFF)",
+          "enum": [
+            "ON",
+            "OFF"
+          ],
+          "default": "OFF"
+        },
+        "tracker": {
+          "type": "string",
+          "title": "埋点上送开关(设置ON，埋点上送)",
+          "enum": [
+            "ON",
+            "OFF"
+          ],
+           "default": "ON"
+        },
+        "debugTostList": {
+          "type": "string",
+          "title": "调试Toast白名单(生产环境留空)"        
+        },
+        "doAllTask": {
+          "type": "string",
+          "title": "一键入会关注模式（打开ON之后，用完完成入会/关注，会自动完成其他商家入会/关注）",
+          "enum": [
+            "ON",
+            "OFF"
+          ]
+        },
+        "activityDate": {
+          "type": "string",
+          "title": "活动日期"         
+        },
+        "submit_address": {
+          "type": "object",
+          "title": "领大奖地址表单URL",
+          "properties": {
+            "link": {
+              "type": "string",
+              "title": "领大奖地址表单URL"
+            },
+            "link_type": {
+              "title": "领大奖地址表单URL类型",
+              "type": "string",
+              "enum": [
+                "DEFAULT",
+                "detail.m.tmall",
+                "ALLCITYGO1",
+                "ALLCITYGO2",
+                "ALLCITYGO3",
+                "detail.tmall",
+                "TAOBAO",
+                "ALIPAY",
+                "live"
+              ]
+            }
+          }
+        },
+        "draw_result": {
+          "type": "object",
+          "title": "抽奖结果弹框配置",
+          "properties": {
+            "image": {
+              "type": "string",
+              "title": "抽奖结果弹框-弹框背景",
+              "x-format": "@image()"
+            },
+            "kefu": {
+              "type": "string",
+              "title": "抽奖结果弹框-客服信息"
+            },
+            "buttonText1": {
+              "type": "string",
+              "title": "抽奖结果弹框-按钮去使用[进店逛逛]文案"
+            },
+            "buttonText2": {
+              "type": "string",
+              "title": "抽奖结果弹框-按钮更多福利文案"
+            }
+          }
+        },        
+        "my_draw": {
+          "type": "object",
+          "title": "中奖记录",
+          "properties": {
+            "link": {
+              "type": "string",
+              "title": "中奖记录跳转链接"
+            },
+            "link_type": {
+              "title": "中奖记录跳转链接类型",
+              "type": "string",
+              "enum": [
+                "DEFAULT",
+                "detail.m.tmall",
+                "ALLCITYGO1",
+                "ALLCITYGO2",
+                "ALLCITYGO3",                
+                "detail.tmall",                
+                "TAOBAO",
+                "ALIPAY",
+                "live"
+              ]
+            }
+          }
+        },
+        "bgColor": {
+          "type": "string",
+          "title": "背景颜色"
+        },
+        "haijingfangName": {
+          "type": "string",
+          "title": "海景房区名称"
+        },
+        "zhiboName": {
+          "type": "string",
+          "title": "直播区名称"
+        },
+        "shopAreaTitle": {
+          "type": "string",
+          "title": "品牌店铺区名称"
+        },
+        "showBag": {
+          "type": "boolean",
+          "title": "活动列表开关"
+        },
+        "showHaijingfang": {
+          "type": "boolean",
+          "title": "海景房开关"
+        },
+        "showZhibo": {
+          "type": "boolean",
+          "title": "直播区开关"
+        },
+        "showShopArea": {
+          "type": "boolean",
+          "title": "品牌店铺区域开关"
+        },
+        "ruleText": {
+          "type": "string",
+          "title": "规则文案"
+        },
+        "ruleUrl": {         
+          "type": "object",
+          "title": "会员规则URL",
+          "properties": {
+            "link": {
+              "type": "string",
+              "title": "会员规则URL"
+            },
+            "link_type": {
+              "title": "会员规则URL类型",
+              "type": "string",
+              "enum": [
+                "DEFAULT",
+                "detail.m.tmall",
+                "ALLCITYGO1",
+                "ALLCITYGO2",
+                "ALLCITYGO3",
+                "detail.tmall",
+                "TAOBAO",
+                "ALIPAY",
+                "live"
+              ]
+            }
+          }
+        },
+        "backClass": {
+          "type": "array",
+          "title": "商家活动列表",
+          "items": {
+            "type": "object",
+            "title": "商家活动",
+            "properties": {
+              "id": {
+                "type": "string",
+                "title": "活动Id"
+              },
+              "name": {
+                "type": "string",
+                "title": "商家名称"
+              },
+              "sellerId": {
+                "type": "string",
+                "title": "商家sellerId"
+              },           
+              "couponPrize": {
+                "type": "string",
+                "title": "奖励文案"
+              },
+              "icon_img": {
+                "type": "string",
+                "title": "商家ICON",
+                "x-format": "@image('96x96')"
+               },             
+              "image": {
+                "type": "string",
+                "title": "结果页面商家广告图片",
+                "x-format": "@image('526x104')"
+              },
+              "bgImage": {
+                "type": "string",
+                "title": "入会页面背景图片",
+                "x-format": "@image('750x340')"
+              },
+              "followImage": {
+                "type": "string",
+                "title": "关注页面宣传图片",
+                "x-format": "@image('622x622')"
+              },
+              "bannnerUrl": {
+                "type": "string",
+                "title": "结果页面商家广告跳转地址"
+              },
+              "shopUrl": {
+                "type": "string",
+                "title": "结果页面商家到店地址"
+               },          
+              "notice": {
+                "type": "string",
+                "title": "[入会、关注页面展示]获得奖励条件"
+              },
+              "draw1Id": {
+                "type": "string",
+                "title": "任务1抽奖id"
+              },
+              "task1Type": {
+                "type": "string",
+                "title": "任务1类型",
+                "enum": [
+                  "member",
+                  "follow",                  
+                  "none"
+                ]
+              },
+              "task1Url": {
+                "type": "string",
+                "title": "任务1URL"
+              }             
+            }
+          }
+        },
+        "haijingfangList": {
+          "type": "array",
+          "title": "海景房列表",
+          "items": {
+            "type": "object",
+            "title": "商品",
+            "properties": { 
+              "sellerId": {
+                "type": "string",
+                "title": "商家sellerId"
+              },  
+              "image": {
+                "type": "string",
+                "title": "商品图片",
+                "x-format": "@image('196x216')"
+              },
+              "link": {
+                "type": "string",
+                "title": "跳转地址"
+              },
+              "link_type": {
+                "title": "跳转链接类型",
+                "type": "string",
+                "enum": [
+                  "DEFAULT",
+                  "detail.m.tmall",
+                  "ALLCITYGO1",
+                  "ALLCITYGO2",
+                  "ALLCITYGO3",
+                  "detail.tmall",
+                  "TAOBAO",
+                  "ALIPAY",
+                  "live"
+                ]
+              },
+              "goodsName": {
+                "type": "string",
+                "title": "商品名称"
+              }
+            }
+          }
+        },
+        "zhiboList": {
+          "type": "array",
+          "title": "直播区列表",
+          "items": {
+            "type": "object",
+            "title": "商品",
+            "properties": {
+              "sellerId": {
+                "type": "string",
+                "title": "商家sellerId"
+              },  
+              "image": {
+                "type": "string",
+                "title": "封面大图",
+                "x-format": "@image('270x320')"
+              },
+              "logo": {
+                "type": "string",
+                "title": "商家logo图",
+                "x-format": "@image('58x58')"
+              },
+              "goodsImg": {
+                "type": "string",
+                "title": "显示商品图片",
+                "x-format": "@image('120x120')"
+              },
+              "goodsPrice": {
+                "type": "string",
+                "title": "商品价格"
+              }, 
+              "otherGoodsImg": {
+                "type": "string",
+                "title": "其他宝贝图片",
+                "x-format": "@image('120x120')"
+              },
+              "goodsNum": {
+                "type": "string",
+                "title": "商品数量"
+              },  
+              "beginStatus": {
+                "type": "boolean",
+                "title": "直播是否开始"
+              },
+              "beginTime": {
+                "type": "string",
+                "title": "直播开始时间"
+              },  
+              "link": {
+                "type": "string",
+                "title": "跳转地址"
+              },
+              "link_type": {
+                "title": "跳转链接类型",
+                "type": "string",
+                "enum": [
+                  "DEFAULT",
+                  "detail.m.tmall",
+                  "ALLCITYGO1",
+                  "ALLCITYGO2",
+                  "ALLCITYGO3",
+                  "detail.tmall",
+                  "TAOBAO",
+                  "ALIPAY",
+                  "live"
+                ]
+              },
+              "tblink": {
+                "type": "string",
+                "title": "淘宝APP端跳转地址"
+              },
+              "tblink_type": {
+                "title": "淘宝APP端跳转链接类型",
+                "type": "string",
+                "enum": [
+                  "DEFAULT",
+                  "detail.m.tmall",
+                  "ALLCITYGO1",
+                  "ALLCITYGO2",
+                  "ALLCITYGO3",
+                  "detail.tmall",
+                  "TAOBAO",
+                  "ALIPAY",
+                  "live"
+                ]
+              },
+              "shopName": {
+                "type": "string",
+                "title": "店铺名称"
+              },
+              "adTxt": {
+                "type": "string",
+                "title": "营销文案"
+              }
+            }
+          }
+        },
+        "shopAreaList": {
+          "type": "array",
+          "title": "品牌店铺区列表",
+          "items": {
+            "type": "object",
+            "title": "品牌",
+            "properties": {
+              "sellerId": {
+                "type": "string",
+                "title": "品牌sellerId"
+              },  
+              "brandName": {
+                "type": "string",
+                "title": "品牌名字"
+              },
+              "image": {
+                "type": "string",
+                "title": "品牌图片",
+                "x-format": "@image('294x440')"
+              },
+              "link": {
+                "type": "string",
+                "title": "加购跳转地址"
+              },
+              "link_type": {
+                "title": "跳转链接类型",
+                "type": "string",
+                "enum": [
+                  "DEFAULT",
+                  "detail.m.tmall",
+                  "ALLCITYGO1",
+                  "ALLCITYGO2",
+                  "ALLCITYGO3",
+                  "detail.tmall",
+                  "TAOBAO",
+                  "ALIPAY",
+                  "live"
+                ]
+              }
+            }
+          }
+        },
+        "shopAreaItemList": {
+          "type": "array",
+          "title": "品牌商品列表",
+          "items": {
+            "type": "object",
+            "title": "品牌商品",
+            "properties": {
+              "brandName": {
+                "type": "string",
+                "title": "所属品牌名字"
+              },
+              "sellerId": {
+                "type": "string",
+                "title": "商品sellerId"
+              },  
+              "image": {
+                "type": "string",
+                "title": "商品图片",
+                "x-format": "@image('114x114')"
+              },
+              "goodsName": {
+                "type": "string",
+                "title": "商品名称"
+              },
+              "goodAdDesc": {
+                "type": "string",
+                "title": "运营营销文字"
+              },
+              "link": {
+                "type": "string",
+                "title": "跳转地址"
+              },
+              "link_type": {
+                "title": "跳转链接类型",
+                "type": "string",
+                "enum": [
+                  "DEFAULT",
+                  "detail.m.tmall",
+                  "ALLCITYGO1",
+                  "ALLCITYGO2",
+                  "ALLCITYGO3",
+                  "detail.tmall",
+                  "TAOBAO",
+                  "ALIPAY",
+                  "live"
+                ]
+              }
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}

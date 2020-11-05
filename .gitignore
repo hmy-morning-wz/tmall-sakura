@@ -1,0 +1,16 @@
+.idea
+.DS_Store
+**/node_modules/
+npm-debug.log
+npm-debug.log.*
+thumbs.db
+!.gitkeep
+node_modules
+**/*.DS_Store
+**/.idea
+**/*.iml
+*.log
+logs/*
+package-lock.json
+demo/seed.json
+demo/seed.js 
